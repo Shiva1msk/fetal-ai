@@ -63,7 +63,7 @@ def output():
 
 # Main entry point to run the app
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
     
 # sample_input = {
 #     'prolongued_decelerations': 0.002,  # between 0.000 and 0.005
@@ -74,4 +74,5 @@ if __name__ == "__main__":
 #     'mean_long_term_variability': 25,  # between 0.0 and 50.7
 #     'histogram_mode': 120,  # between 60.0 and 187.0
 #     'accelerations': 0.01  # between 0.000 and 0.019
+
 # }
