@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<form action="/output" method="post">
+<input name="prolongued_decelerations" placeholder="Prolongued Decelerations" required>
+<input name="abnormal_short_term_variability" placeholder="Abnormal Short Term Variability" required>
+<input name="percentage_abnormal_long_term_variability" placeholder="Percentage Abnormal Long Term Variability" required>
+<input name="histogram_variance" placeholder="Histogram Variance" required>
+<input name="histogram_median" placeholder="Histogram Median" required>
+<input name="mean_long_term_variability" placeholder="Mean Long Term Variability" required>
+<input name="histogram_mode" placeholder="Histogram Mode" required>
+<input name="accelerations" placeholder="Accelerations" required>
+<button type="submit">Predict</button>
+</form>
+</div>
+</body>
+</html>
